@@ -1,0 +1,146 @@
+<head>
+	<meta charset="utf-8">
+	<link href="Style.css"
+		rel = "stylesheet"
+		type="text/css"/>
+</head>
+
+<head>
+	
+	<script src="formChecker.js">
+	</script>
+</head>
+<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Animal Store
+  </div>
+ 
+ <div class="username">
+ 	<form onSubmit = "return matchUsername(this)">
+ 	username:<input type=username name=username>
+ 	<form onSubmit = "return matchPassword(this)">
+ 	password:<input type=password name=password>
+ 	<input type=submit value="Submit"/>
+ 	</form>
+ </div>
+ 
+ <div class="reset-button">
+ 	<button onClick="window.location.reload();">Reset</button>
+ </div>
+ 
+ 
+  <!-- Product #1 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="download (copy).png" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>Sheep</span>
+      <span></span>
+      <span>White</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">$399</div>
+    <div class="shipping-button"> 
+    	<li>
+    	<input type="radio" > Free 7 Day 
+    	<input type="radio" > $50.00 over night
+    	<input type="radio" > $5.00 three day
+    	</li>
+    </div>
+  </div>
+  	
+  	
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="download (copy).jpeg" alt=""/>
+    </div>
+ 
+    <div class="description">
+      <span>Cow</span>
+      <span></span>
+      <span>Brown</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">$999</div>
+    <div class="shipping-button"> 
+    	<li>
+    	<input type="radio" > Free 7 Day 
+    	<input type="radio" > $50.00 over night
+    	<input type="radio" > $5.00 three day
+    	</li>
+    </div>
+  </div>
+ 
+  <!-- Product #3 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="download (1) (copy).jpeg" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>Chicken</span>
+      <span></span>
+      <span>White</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">$149</div>
+    <div class="shipping-button"> 
+    	<li>
+    	<input type="radio" > Free 7 Day 
+    	<input type="radio" > $50.00 over night
+    	<input type="radio" > $5.00 three day
+    	</li>
+    </div>
+  </div>
+  </form>
+</div>
